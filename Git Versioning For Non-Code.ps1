@@ -5,6 +5,8 @@ $GitFolders = @(
     "$env:AppData\ROCCAT\SWARM"
 )
 
+$Host.UI.RawUI.WindowTitle = "Git Versioning For Non-Code"
+
 $ErrorActionPreference = 'Inquire'
 
 function Add-Comma {
